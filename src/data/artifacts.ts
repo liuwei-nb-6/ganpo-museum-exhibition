@@ -1,0 +1,1616 @@
+import type { Artifact } from '../types/museum';
+
+export const ARTIFACTS: Artifact[] = [
+  // ==================== 第一厅：礼乐重器 ====================
+  {
+    id: '01-shang-tiger-ding',
+    index: 1,
+    code: 'JX-01',
+    name: '商·乳丁纹虎耳方形青铜大鼎',
+    englishName: 'Square Bronze Ding with Tiger-Ears & Nipple Bosses',
+    dynasty: '商代晚期',
+    dynastyGroup: '商周',
+    yearSort: -1200,
+    eraSpan: '约公元前 12 世纪',
+    museum: '江西省博物馆',
+    hallId: 'ritual',
+    material: '青铜',
+    materialDetail: '青铜 · 分范合铸',
+    provenance: '1989 年江西省新干县大洋洲商代大墓出土',
+    modelUrl: './models/01-shang-tiger-ding.glb',
+    thumbUrl: './thumbs/01-shang-tiger-ding.png',
+    modelRotation: [0, 0.44, 0],
+    cameraView: [0.35, 1.32, 1.0],
+    tagline: '双虎伏耳镇赣江，一鼎打破「商文化不过长江」铁律',
+    riddle: '它重近百斤、通高逾一米，耳上伏着两只威风凛凛的猛虎，曾在赣江沙洲沉睡三千年，一朝现世震惊中国考古界。',
+    brief:
+      '江南地区迄今出土体量最宏伟的商代青铜方鼎，江西省博物馆镇馆之宝。方腹直壁、柱足粗壮，最令人拍案叫绝的是双立耳之上各铸有一只蓄势伏卧的立体猛虎，威严中透出江南青铜文明独有的奇诡生命力。',
+    origin:
+      '1989 年秋，江西新干大洋洲村民取沙修堤时意外挖出一座未经盗扰的商代王侯级大墓，一口气出土青铜器 475 件、玉器 754 件。在此之前，学界普遍认为商代高度发达的青铜文明仅限于中原殷墟；而这座大鼎的横空出世，证明三千多年前的赣江流域同样矗立着一个高度辉煌的方国——「江南青铜王国」。',
+    stories: [
+      {
+        title: '虎崇拜：为何大鼎耳上伏着两只虎？',
+        content:
+          '中原商鼎的立耳通常素面或仅饰平面云雷纹，但新干大洋洲出土的青铜重器却频频出现圆雕伏虎。考古学者认为，这支盘踞在赣鄱大地上的古越/虎方族群以虎为图腾与守护神——双虎盘踞在祭祀大鼎的最高处，既是王权的震慑，也是连通天神的灵兽使者。',
+      },
+      {
+        title: '浑铸难题：三千年前的高难度浇铸工艺',
+        content:
+          '大鼎重达 49.2 公斤，器壁薄厚均匀，四面框格内整齐排列着数百颗立体乳丁，既象征丰饶多子，也在物理上增强了铜壁刚度。工匠采用极其复杂的复合陶范分铸与浑铸结合工艺，连伏虎的脊骨与耳廓都铸造得毫厘毕现。',
+      },
+    ],
+    craftHighlight: '立耳立体圆雕伏虎 + 四壁框格乳丁纹与饕餮兽面纹范铸工艺',
+    dimensions: {
+      height: 105,
+      width: 61,
+      depth: 49.5,
+      label: '通高 105 cm · 口长 61 cm · 重 49.2 kg',
+      scaleCompareText: '高度直抵成年人胸口，比普通家用书桌还要高出一头，极具压迫感与威仪。',
+    },
+    hotspots: [
+      {
+        id: 'tiger-ears',
+        label: '立耳伏虎',
+        summary: '双立耳顶端各铸一只圆雕伏虎，双目圆睁、昂首向内守望鼎口，是江南商代青铜器最具辨识度的地域图腾。',
+        relPos: [0.42, 0.89, 0.05],
+        camDir: [0.7, 0.45, 0.85],
+      },
+      {
+        id: 'nipple-bosses',
+        label: '三排乳丁纹',
+        summary: '鼎腹四壁周边饰有三层凸起乳丁，中心留出大片素面光区，繁简对比强烈，在摇曳祭火下会折射出星点寒光。',
+        relPos: [-0.08, 0.48, 0.72],
+        camDir: [-0.25, 0.12, 1.0],
+      },
+      {
+        id: 'beast-legs',
+        label: '兽面柱足',
+        summary: '四根粗壮圆柱足上部铸有高浮雕饕餮兽面纹，上承百斤重腹，稳重如山岳立于祭坛之上。',
+        relPos: [0.48, 0.16, 0.48],
+        camDir: [0.75, -0.1, 0.8],
+      },
+    ],
+    sealText: '虎耳重鼎',
+    sealMotif: 'bronze',
+    related: [
+      { id: '06-shang-jade-mask', reason: '同出于新干大洋洲大墓的镇馆玉器，共证江南商代古国信仰' },
+      { id: '03-han-changyi-ding', reason: '跨越千年看「鼎」从商代方鼎到西汉圆鼎的礼制流变' },
+      { id: '14-han-warming-ding', reason: '从祭祀天地的百斤方鼎，演变为汉代餐桌上的精致单人小火锅' },
+    ],
+    featuredInPrologue: true,
+  },
+
+  {
+    id: '02-han-gilt-horse-stand',
+    index: 2,
+    code: 'HH-01',
+    name: '西汉·鎏金卧马形青铜磬虡',
+    englishName: 'Gilt-Bronze Reclining Horse Chime-Stand Base',
+    dynasty: '西汉',
+    dynastyGroup: '两汉',
+    yearSort: -74,
+    eraSpan: '公元前 1 世纪（海昏侯时期）',
+    museum: '南昌汉代海昏侯国遗址博物馆',
+    hallId: 'ritual',
+    material: '青铜',
+    materialDetail: '青铜 · 鎏金错银',
+    provenance: '江西南昌汉代海昏侯刘贺墓北藏阁乐器库出土',
+    modelUrl: './models/02-han-gilt-horse-stand.glb',
+    thumbUrl: './thumbs/02-han-gilt-horse-stand.png',
+    modelRotation: [0, 0.48, 0],
+    cameraView: [0.45, 1.25, 1.0],
+    tagline: '骏马伏地驮金柱，托起汉代王侯的地下交响乐架',
+    riddle: '它不是用来骑乘的战马，背上却稳稳插着一根方柱，全身鎏满真金，默默扛起一整架王侯礼乐重器。',
+    brief:
+      '古代用以承托悬挂编磬、编钟木架的青铜底座，称为「磬虡（qìng jù）」。整器塑造成一匹神态安详却筋骨雄健的鎏金伏卧骏马，背脊竖起方柱插座，将实用承重结构化为极具雕塑感的汉代瑞兽。',
+    origin:
+      '出土于海昏侯刘贺墓北藏阁的乐器库中。按照周汉礼制，只有天子与诸侯王才配享有成套悬挂的钟磬雅乐。刘贺虽然只当了 27 天皇帝便被废为海昏侯，但在他的地下宫殿里，依然完整保留了气势恢宏的王侯级礼乐仪仗，这尊鎏金卧马正是其中华贵非凡的构件。',
+    stories: [
+      {
+        title: '天马西来：汉代贵族对骏马的狂热痴迷',
+        content:
+          '自汉武帝派张骞通西域、得大宛汗血宝马后，「天马」便成为大汉帝国强盛与升仙梦想的象征。工匠特意把原本冰冷的乐架底座铸成伏卧骏马，仿佛每一次敲响编磬，金石之音都会乘着天马直达云霄。',
+      },
+      {
+        title: '金银错映：暗黑墓室里不朽的皇家光芒',
+        content:
+          '马身以水银鎏金工艺镀上金辉，并在鞍辔、鬃毛与卷云纹处精细打磨出层次感。即便在地下沉睡两千余年，在博物馆侧光照射下，骏马颊部与肩颈的金色依然熠熠流转。',
+      },
+    ],
+    craftHighlight: '写实汉代天马雕塑造型 + 通体鎏金表面处理 + 承重榫卯方柱结构',
+    dimensions: {
+      height: 28,
+      width: 39,
+      depth: 18,
+      label: '通高约 28 cm · 通长约 39 cm · 宽约 18 cm',
+      scaleCompareText: '体量接近一只成年肥猫伏卧在地，但通体实心青铜浇铸，分量极其沉重压手。',
+    },
+    hotspots: [
+      {
+        id: 'horse-head',
+        label: '昂首天马',
+        summary: '马首微昂、双耳竖立、鼻翼微张，造型融合了西汉写实雕塑的雄浑张力与温顺仪态。',
+        relPos: [0.16, 0.72, 0.45],
+        camDir: [0.7, 0.3, 0.85],
+      },
+      {
+        id: 'pillar-socket',
+        label: '背脊立柱',
+        summary: '马背中央直立中空方柱，用于插接高大的木质悬磬立柱，巧妙将力学支撑融入雕塑重心。',
+        relPos: [-0.08, 0.82, -0.05],
+        camDir: [-0.6, 0.4, 0.8],
+      },
+      {
+        id: 'gilt-flank',
+        label: '鎏金卷云鞍饰',
+        summary: '马身两侧以浅浮雕勾勒鞍鞯与云气纹，残存的鎏金层在斜光手电筒照射下依然闪耀暖金光晕。',
+        relPos: [-0.25, 0.38, 0.1],
+        camDir: [-0.95, 0.2, 0.35],
+      },
+    ],
+    sealText: '金马承乐',
+    sealMotif: 'bronze',
+    related: [
+      { id: '04-han-gilt-bianzhong', reason: '同出北藏阁乐器库，一为悬架基座、一为堂上金声' },
+      { id: '05-han-bronze-sheng', reason: '共构海昏侯地下宫廷交响乐团的青铜重器' },
+    ],
+  },
+
+  {
+    id: '03-han-changyi-ding',
+    index: 3,
+    code: 'HH-02',
+    name: '西汉·「昌邑籍田」青铜鼎',
+    englishName: 'Bronze Ritual Ding Inscribed "Changyi Jitian"',
+    dynasty: '西汉',
+    dynastyGroup: '两汉',
+    yearSort: -74,
+    eraSpan: '公元前 1 世纪（西汉昭宣时期）',
+    museum: '南昌汉代海昏侯国遗址博物馆',
+    hallId: 'ritual',
+    material: '青铜',
+    materialDetail: '青铜 · 刻铭礼器',
+    provenance: '江西南昌汉代海昏侯刘贺墓出土',
+    modelUrl: './models/03-han-changyi-ding.glb',
+    thumbUrl: './thumbs/03-han-changyi-ding.png',
+    modelRotation: [0, 0.25, 0],
+    cameraView: [0.22, 1.28, 1.0],
+    tagline: '腹上数行瘦劲刻铭，率先揭开海昏侯刘贺身世之谜',
+    riddle: '在考古学家尚未开启主墓棺椁时，正是它腹部刻着的两个地名与农事大典之字，一锤定音锁定了墓主人传奇的一生。',
+    brief:
+      '典型的西汉王侯级礼仪铜鼎，深腹圜底、附耳外撇、三蹄足劲挺，器腹外壁清晰阴刻「昌邑籍田」等隶书铭文，记录着器物归属、容积与重量，既是农耕大典的圣器，更是破解海昏侯身份的关键铁证。',
+    origin:
+      '海昏侯墓自 2011 年发掘之初，墓主究竟是第一代海昏侯刘贺还是其子孙曾引发全网悬念。当考古队员清理出这件带有「昌邑籍田」铭文的青铜鼎时，历史瞬间贯通——只有曾任山东昌邑王、短暂登基称帝 27 天后被废徙豫章的汉废帝刘贺，才可能把旧封国「昌邑」的祭农重鼎千里迢迢带到江西。',
+    stories: [
+      {
+        title: '什么是「籍田」？古代帝王的最高农事秀',
+        content:
+          '「籍田」即天子与诸侯王每年春耕亲手扶犁耕种千亩公田的大典，收获的谷物专门装进此类青铜重鼎烹煮，用于祭祀天地宗庙。「昌邑籍田」四字，见证了刘贺早年在昌邑国行诸侯王大礼的风光岁月。',
+      },
+      {
+        title: '从王到帝、再贬为侯：一鼎看尽大汉政治沉浮',
+        content:
+          '公元前 74 年，19 岁的昌邑王刘贺被权臣霍光迎立为帝，却在短短 27 天内因「行昏乱」罪名遭废黜，削去王爵、流放江西海昏。带着刻有「昌邑」旧号的铜鼎入葬，或许正是这位失意皇孙内心深处从未放下的王侯执念。',
+      },
+    ],
+    craftHighlight: '西汉实用化简练圆鼎造型 + 器腹阴刻隶书纪名纪重铭文',
+    dimensions: {
+      height: 32,
+      width: 36,
+      depth: 33,
+      label: '通高约 32 cm · 口径约 36 cm',
+      scaleCompareText: '口径约等于现代家用大号炖汤锅，相比商代方鼎更加轻便实用。',
+    },
+    hotspots: [
+      {
+        id: 'changyi-inscription',
+        label: '「昌邑籍田」刻铭',
+        summary: '开启斜光手电筒细看器腹，可见西汉工匠以利刃阴刻的隶书铭文，将封国「昌邑」与「籍田」礼制永久定格。',
+        relPos: [0.05, 0.56, 0.85],
+        camDir: [0.05, 0.15, 1.0],
+      },
+      {
+        id: 'attached-ears',
+        label: '外撇附耳',
+        summary: '双长方形附耳稳固焊铸于器肩外侧，便于穿入木杠抬举盛满滚烫祭肉的青铜鼎。',
+        relPos: [0.85, 0.72, 0.05],
+        camDir: [0.95, 0.25, 0.45],
+      },
+      {
+        id: 'hoof-legs',
+        label: '兽蹄三足',
+        summary: '三根马蹄形铜足上粗下细，利落挺拔，体现了西汉青铜器摆脱神秘繁缛、转向典雅实用的审美剧变。',
+        relPos: [-0.52, 0.18, 0.52],
+        camDir: [-0.7, -0.1, 0.75],
+      },
+    ],
+    sealText: '昌邑籍田',
+    sealMotif: 'bronze',
+    related: [
+      { id: '01-shang-tiger-ding', reason: '对比千年前的商代方鼎，感受青铜器从威严神权走向人间礼制' },
+      { id: '12-han-nanchang-lamp', reason: '同样以关键铭文改写历史档案的海昏侯重器' },
+    ],
+  },
+
+  {
+    id: '04-han-gilt-bianzhong',
+    index: 4,
+    code: 'HH-03',
+    name: '西汉·鎏金青铜编钟',
+    englishName: 'Gilt-Bronze Chime Bell (Bianzhong)',
+    dynasty: '西汉',
+    dynastyGroup: '两汉',
+    yearSort: -74,
+    eraSpan: '公元前 1 世纪（西汉）',
+    museum: '南昌汉代海昏侯国遗址博物馆',
+    hallId: 'ritual',
+    material: '青铜',
+    materialDetail: '青铜 · 范铸鎏金 · 打击乐器',
+    provenance: '江西南昌汉代海昏侯刘贺墓北藏阁乐器库出土',
+    modelUrl: './models/04-han-gilt-bianzhong.glb',
+    thumbUrl: './thumbs/04-han-gilt-bianzhong.png',
+    modelRotation: [0, 0.2, 0],
+    cameraView: [0.18, 1.42, 1.0],
+    tagline: '一钟双音震汉宫，轻敲正侧鼓部聆听两千年前金声',
+    riddle: '它不呈正圆而作扁平「合瓦」之状，敲击正面与侧面竟能发出两个截然不同的音高，堪称中国古代声学巅峰。',
+    brief:
+      '海昏侯刘贺地下乐宫中最具王者气象的礼乐重器。钟体呈独特的合瓦形扁圆截面，上部设环钮悬挂，钟身满布三十六枚凸起「钟枚」与精丽鎏金蟠螭云纹，至今仍蕴含「金声玉振」的声学智慧。',
+    origin:
+      '海昏侯墓乐器库共出土两架十四件钮钟与一架十件甬钟，与铁编磬、青铜笙、竹排箫、瑟等共同组成了我国汉代考古发现最为完备的王侯级地下礼乐演奏体系，生动再现了《仪礼》记载的「钟磬铿锵」之盛景。',
+    stories: [
+      {
+        title: '世界声学奇迹：为什么能「一钟双音」？',
+        content:
+          '欧洲教堂大钟是正圆形的，敲哪儿都是同一个音，且余音嗡嗡混响极难演奏快曲；而中国古代扁圆合瓦形编钟，利用两片弧面不同的振动模态，敲击中央「正鼓部」与偏侧「侧鼓部」，竟能精准发出相差大小三度的两个独立乐音，且余音迅速衰减，得以流畅奏响复调乐章！',
+      },
+      {
+        title: '钟枚的秘密：不只是装饰，更是调音器',
+        content:
+          '钟面上排列整齐的凸起乳丁称为「枚」，古籍称「枚，景也」。现代声学测试证实，这些看似装饰的铜枚其实起到了过滤高频刺耳杂音、优化泛音列比例的「声学滤波器」作用，让青铜钟声浑厚清越而不燥。',
+      },
+    ],
+    craftHighlight: '合瓦形双音共振腔设计 + 三十六枚声学调音乳丁 + 满饰鎏金云雷纹',
+    dimensions: {
+      height: 26,
+      width: 16,
+      depth: 12,
+      label: '单件通高约 26 cm · 铣间宽约 16 cm',
+      scaleCompareText: '单件编钟约与一只大号保温水壶相当，成套十四件悬挂于朱漆钟架之上气势磅礴。',
+    },
+    hotspots: [
+      {
+        id: 'bell-zhenggu',
+        label: '正鼓敲击部',
+        summary: '钟口正中央微弧处为「正鼓部」，木槌轻击此处可激发低沉浑厚的主基音（可点击下方古乐试音体验）。',
+        relPos: [0.0, 0.22, 0.85],
+        camDir: [0.0, 0.05, 1.0],
+      },
+      {
+        id: 'bell-cegu',
+        label: '侧鼓双音区',
+        summary: '偏离中轴线右侧的弧面为「侧鼓部」，敲击此处振动节线偏移，会发出比正鼓高一个小三度或大三度的第二乐音。',
+        relPos: [0.62, 0.25, 0.65],
+        camDir: [0.7, 0.08, 0.85],
+      },
+      {
+        id: 'bell-mei',
+        label: '三十六枚调音乳丁',
+        summary: '篆间整齐分布的立体圆枚既体现礼器威仪，又能有效抑制高频杂波，使金石余韵更加清亮纯粹。',
+        relPos: [-0.45, 0.56, 0.72],
+        camDir: [-0.55, 0.2, 0.9],
+      },
+    ],
+    instrument: {
+      type: 'bianzhong',
+      title: '汉宫金声 · 一钟双音互动试奏',
+      subtitle: '点击下方五声音阶切换「正鼓音」或「侧鼓音（高三度）」，亦可一键奏响汉乐雅韵',
+      dualTone: true,
+      notes: [
+        { id: 'gong', label: '宫', sublabel: 'C4 / 侧 Eb4', freq: 261.63, altFreq: 311.13 },
+        { id: 'shang', label: '商', sublabel: 'D4 / 侧 F4', freq: 293.66, altFreq: 349.23 },
+        { id: 'jue', label: '角', sublabel: 'E4 / 侧 G4', freq: 329.63, altFreq: 392.0 },
+        { id: 'zhi', label: '徵', sublabel: 'G4 / 侧 Bb4', freq: 392.0, altFreq: 466.16 },
+        { id: 'yu', label: '羽', sublabel: 'A4 / 侧 C5', freq: 440.0, altFreq: 523.25 },
+      ],
+      melodyName: '《汉宫礼乐·金声颂》片段',
+      melodySequence: [
+        { noteIndex: 0, delayMs: 0 },
+        { noteIndex: 2, delayMs: 520 },
+        { noteIndex: 3, delayMs: 1040 },
+        { noteIndex: 4, delayMs: 1560 },
+        { noteIndex: 3, delayMs: 2150 },
+        { noteIndex: 2, delayMs: 2680 },
+        { noteIndex: 1, delayMs: 3200 },
+        { noteIndex: 0, delayMs: 3780 },
+        { noteIndex: 4, delayMs: 4400, useAlt: true },
+        { noteIndex: 3, delayMs: 5050 },
+        { noteIndex: 0, delayMs: 5700 },
+      ],
+    },
+    sealText: '金声玉振',
+    sealMotif: 'music',
+    related: [
+      { id: '02-han-gilt-horse-stand', reason: '同为海昏侯地下乐宫的鎏金礼乐构件' },
+      { id: '05-han-bronze-sheng', reason: '八音交鸣：青铜编钟与青铜笙的宫廷合奏' },
+      { id: '15-han-bamboo-paixiao', reason: '金石之雄浑与凤箫之空灵的听觉对话' },
+    ],
+    featuredInPrologue: true,
+  },
+
+  {
+    id: '05-han-bronze-sheng',
+    index: 5,
+    code: 'HH-04',
+    name: '西汉·青铜笙',
+    englishName: 'Bronze Free-Reed Mouth Organ (Sheng)',
+    dynasty: '西汉',
+    dynastyGroup: '两汉',
+    yearSort: -74,
+    eraSpan: '公元前 1 世纪（西汉）',
+    museum: '南昌汉代海昏侯国遗址博物馆',
+    hallId: 'ritual',
+    material: '青铜',
+    materialDetail: '青铜 · 自由簧管乐器',
+    provenance: '江西南昌汉代海昏侯刘贺墓北藏阁乐器库出土',
+    modelUrl: './models/05-han-bronze-sheng.glb',
+    thumbUrl: './thumbs/05-han-bronze-sheng.png',
+    modelRotation: [0, 0.42, 0],
+    cameraView: [0.4, 1.38, 1.0],
+    tagline: '管束参差如凤翼，吹吸和鸣响彻大汉殿堂',
+    riddle: '它底部像一只小巧铜壶，上面插满高低错落的管束，一吹一吸间竟能独自奏出和弦，甚至启发了近代西方手风琴。',
+    brief:
+      '中国最古老的「和声」吹奏乐器之一。此件青铜笙以厚实铜斗为气室，侧设吹嘴，顶部竖插十余根长短参差的圆管，形如凤凰敛翼；演奏时通过按孔控制铜簧振动，既可独奏亦能与编钟共鸣。',
+    origin:
+      '《诗经·鹿鸣》早有「我有嘉宾，鼓瑟吹笙」之句。先秦至汉代的笙多以匏瓜（葫芦）作斗，极易腐朽；而海昏侯墓中这件以青铜铸成的笙器得以完整留存至今，为复原西汉宫廷雅乐的编配形态提供了极其珍贵的实物依据。',
+    stories: [
+      {
+        title: '改变世界音乐史的「东方自由簧」',
+        content:
+          '鲜为人知的是，中国传统乐器「笙」是世界上最早发明自由簧发声原理的乐器。18 世纪欧洲传教士将中国笙带回圣彼得堡与巴黎后，乐器制造师受其启发，陆续发明了管风琴自由簧、口琴与手风琴。',
+      },
+      {
+        title: '吹吸皆响：汉代宴席上的永动和声',
+        content:
+          '普通吹管乐器呼气才能发声，换气时乐音必然中断；而笙的簧片在呼气与吸气两个方向都能自由振动，乐师得以绵延不绝地奏出五度、四度丰满和声，将汉代贵族宴饮的氛围烘托得温暖华丽。',
+      },
+    ],
+    craftHighlight: '青铜笙斗铸造 + 仿竹节管束排列 + 东方自由簧和声发声原理',
+    dimensions: {
+      height: 42,
+      width: 15,
+      depth: 13,
+      label: '通高约 42 cm · 斗径约 13 cm',
+      scaleCompareText: '高度略高于一瓶红酒，双手捧托铜斗于唇边即可奏响和声。',
+    },
+    hotspots: [
+      {
+        id: 'sheng-pipes',
+        label: '凤翼管束',
+        summary: '长短参差的管身模拟竹节形态，每根音管对应不同音高，排列宛如凤凰展翅的优美轮廓。',
+        relPos: [0.0, 0.72, 0.55],
+        camDir: [0.35, 0.2, 0.95],
+      },
+      {
+        id: 'sheng-mouthpiece',
+        label: '侧伸吹口',
+        summary: '笙斗侧下方伸出斜口吹嘴，乐师含唇吹吸，气流直入气室驱动内部簧片和鸣。',
+        relPos: [-0.62, 0.25, 0.55],
+        camDir: [-0.8, 0.12, 0.7],
+      },
+      {
+        id: 'sheng-bowl',
+        label: '青铜笙斗',
+        summary: '承插众管的厚重铜斗起共鸣箱与集气室双重功能，表层翠绿铜锈见证两千年地下沧桑。',
+        relPos: [0.15, 0.14, 0.72],
+        camDir: [0.35, -0.05, 0.95],
+      },
+    ],
+    instrument: {
+      type: 'sheng',
+      title: '鹿鸣吹笙 · 传统五度和声试奏',
+      subtitle: '点击体验笙管独有的自由簧温暖和声（每键自动叠加传统纯五度伴音）',
+      notes: [
+        { id: 's1', label: '黄钟', sublabel: 'C4+G4', freq: 261.63, chord: [261.63, 392.0] },
+        { id: 's2', label: '太簇', sublabel: 'D4+A4', freq: 293.66, chord: [293.66, 440.0] },
+        { id: 's3', label: '姑洗', sublabel: 'E4+B4', freq: 329.63, chord: [329.63, 493.88] },
+        { id: 's4', label: '林钟', sublabel: 'G4+D5', freq: 392.0, chord: [392.0, 587.33] },
+        { id: 's5', label: '南吕', sublabel: 'A4+E5', freq: 440.0, chord: [440.0, 659.25] },
+      ],
+      melodyName: '《诗经·鹿鸣》古意和声',
+      melodySequence: [
+        { noteIndex: 0, delayMs: 0 },
+        { noteIndex: 1, delayMs: 750 },
+        { noteIndex: 3, delayMs: 1500 },
+        { noteIndex: 4, delayMs: 2300 },
+        { noteIndex: 3, delayMs: 3100 },
+        { noteIndex: 1, delayMs: 3850 },
+        { noteIndex: 0, delayMs: 4650 },
+      ],
+    },
+    sealText: '鼓瑟吹笙',
+    sealMotif: 'music',
+    related: [
+      { id: '04-han-gilt-bianzhong', reason: '一敲一吹，共现西汉王侯礼乐「八音克谐」' },
+      { id: '15-han-bamboo-paixiao', reason: '同为海昏侯乐器库出土的多管吹奏乐器' },
+    ],
+  },
+
+  // ==================== 第二厅：玉润金辉 ====================
+  {
+    id: '06-shang-jade-mask',
+    index: 6,
+    code: 'JX-02',
+    name: '商·神人兽面玉牌饰',
+    englishName: 'Double-Faced Deity & Beast-Mask Jade Ornament',
+    dynasty: '商代晚期',
+    dynastyGroup: '商周',
+    yearSort: -1200,
+    eraSpan: '约公元前 12 世纪',
+    museum: '江西省博物馆',
+    hallId: 'jade-gold',
+    material: '玉器',
+    materialDetail: '黄玉 · 双面阳线浅浮雕',
+    provenance: '1989 年江西省新干县大洋洲商代大墓出土',
+    modelUrl: './models/06-shang-jade-mask.glb',
+    thumbUrl: './thumbs/06-shang-jade-mask.png',
+    modelRotation: [0, 0.16, 0],
+    cameraView: [0.15, 1.48, 1.0],
+    tagline: '羽冠神人合兽面，双面同雕窥见江南商国通天秘仪',
+    riddle: '它薄如饼干却正反两面雕着一模一样的神秘神脸，头顶高翘羽冠、龇牙咧嘴，被誉为商代江南玉器的灵魂图腾。',
+    brief:
+      '江西省博物馆镇馆级国宝玉器，堪称新干大洋洲玉器艺术的巅峰。扁平长条黄玉上，工匠以极细腻的「减地阳线」技法在正反两面雕琢出完全一致的神人兽面像：上戴高耸弯卷羽冠，下现怒目獠牙神兽面庞。',
+    origin:
+      '与虎耳青铜方鼎同出于新干大洋洲大墓墓主身旁，极可能是商代方国巫王举行祭祀大典时佩戴于冠帽或胸前的通神圣物。它既承袭了长江下游良渚文化「神人兽面徽」的千年基因，又融入了商代青铜饕餮纹的威严风格，是中华文明多元一体的绝佳物证。',
+    stories: [
+      {
+        title: '亦人亦兽：一张脸里的三重神秘密码',
+        content:
+          '细看玉牌正面：最上方是向一侧勾卷的高大羽冠，代表能飞升天界的太阳神鸟；中间粗眉杏眼、阔鼻宽口，兼具人的威严与虎的凶猛；下巴处露出一排整齐獠牙，两侧伸出卷云状羽翼。在古人眼中，这就是能驾驭天地鬼神的最高祖先神。',
+      },
+      {
+        title: '毫米级的炫技：没有钢铁工具如何雕出阳线？',
+        content:
+          '商代尚无钢铁刻刀，玉工只能以青铜砣轮蘸着湿润的解玉砂一点点磨去背景玉料，才让细若游丝的轮廓线凸起在玉面之上（双勾减地阳线），更难得的是正反两面线条精准对称，耗时往往以年计。',
+      },
+    ],
+    craftHighlight: '正反双面完全对称减地阳线浮雕 + 良渚神徽与商代饕餮跨千年融合',
+    dimensions: {
+      height: 12.6,
+      width: 5.1,
+      depth: 0.7,
+      label: '通高 12.6 cm · 宽 5.1 cm · 厚 0.7 cm',
+      scaleCompareText: '大小与一部智能手机相仿，却薄如轻片，握于掌中盈盈润泽。',
+    },
+    hotspots: [
+      {
+        id: 'jade-crown',
+        label: '勾卷高羽冠',
+        summary: '神像头顶高耸的不对称卷云羽冠，末端优雅回勾，象征古越先民对鸟羽飞升与通天的崇拜。',
+        relPos: [0.12, 0.84, 0.6],
+        camDir: [0.2, 0.25, 1.0],
+      },
+      {
+        id: 'jade-eyes',
+        label: '臣字神目',
+        summary: '粗眉下双目微斜如商代标志性的「臣字眼」，眼神摄人心魄，正反两面以完全相同的工艺雕琢。',
+        relPos: [-0.02, 0.48, 0.65],
+        camDir: [0.0, 0.05, 1.0],
+      },
+      {
+        id: 'jade-fangs',
+        label: '咧口獠牙与耳饰',
+        summary: '阔口微张露出规整牙齿，双颊外侧雕出锯齿羽翼与圆环耳珰，将神人的庄严与兽面的震慑融为一体。',
+        relPos: [0.0, 0.28, 0.65],
+        camDir: [0.15, -0.08, 1.0],
+      },
+    ],
+    sealText: '神人玉徽',
+    sealMotif: 'jade',
+    related: [
+      { id: '01-shang-tiger-ding', reason: '同墓出土的双璧重宝：一铜一玉，共塑商代江南王权' },
+      { id: '07-han-jade-bi', reason: '跨越千年看古玉从神秘巫觋礼器转向优雅透雕瑞玉' },
+    ],
+  },
+
+  {
+    id: '07-han-jade-bi',
+    index: 7,
+    code: 'HH-05',
+    name: '西汉·透雕螭虎纹玉璧',
+    englishName: 'Openwork Jade Bi Disc with Chi-Dragons',
+    dynasty: '西汉',
+    dynastyGroup: '两汉',
+    yearSort: -74,
+    eraSpan: '公元前 1 世纪（西汉）',
+    museum: '南昌汉代海昏侯国遗址博物馆',
+    hallId: 'jade-gold',
+    material: '玉器',
+    materialDetail: '和田白玉 · 镂空透雕',
+    provenance: '江西南昌汉代海昏侯刘贺墓主棺及周边出土',
+    modelUrl: './models/07-han-jade-bi.glb',
+    thumbUrl: './thumbs/07-han-jade-bi.png',
+    modelRotation: [0, 0.18, 0],
+    cameraView: [0.18, 1.46, 1.0],
+    tagline: '温润白玉镂空成环，螭龙翻腾于方寸乾坤之间',
+    riddle: '它外圆内空象征苍天，玉环并非实心，而是被雕出游龙腾云的镂空线条，随海昏侯长眠两千年犹带温润沁色。',
+    brief:
+      '汉代治玉艺术最高水准的缩影。精选温润细腻的和田白玉，通体施以极高难度的镂空透雕工艺，在圆环肉廓间盘绕数条矫健翻腾的螭虎，留白疏朗灵动，宛如游龙穿梭在云雾之中。',
+    origin:
+      '《周礼》云「以苍璧礼天」。汉代皇室与列侯对玉璧推崇备至，不仅日常佩带彰显德行，归葬之时更以精美玉璧覆于身畔，祈愿肉身不朽、魂魄乘龙登仙。海昏侯墓出土大批顶级和田玉器，印证了丝绸之路开通后西域美玉源源不断输入大汉王室的盛况。',
+    stories: [
+      {
+        title: '汉代「游丝毛雕」与透雕的生死博弈',
+        content:
+          '在厚度仅约半厘米的玉片上反复钻孔、拉丝搜镂出盘绕的螭龙，只要工匠手腕稍偏半毫米，整块价值连城的和田玉料就会前功尽弃。这件玉璧的镂空边缘被打磨得圆滑如脂，几乎找不到生硬切痕，令人叹为观止。',
+      },
+      {
+        title: '千年土沁：岁月给白玉写下的琥珀诗行',
+        content:
+          '旋转模型细看玉环边缘，可见自然晕散的琥珀褐色「沁色」——这是玉石在地下潮湿环境中历经两千年，土壤矿物质缓慢渗入玉石微孔形成的天然包浆，反而赋予洁白玉体一种沉静沧桑的历史温度。',
+      },
+    ],
+    craftHighlight: '新疆和田白玉良材 + 极细镂空透雕螭龙纹 + 汉代「游丝」细阴线',
+    dimensions: {
+      height: 15.8,
+      width: 15.8,
+      depth: 0.6,
+      label: '外径约 15.8 cm · 厚约 0.6 cm',
+      scaleCompareText: '直径与一只中号瓷碟相当，迎光微透，轻若浮云。',
+    },
+    hotspots: [
+      {
+        id: 'bi-chi-dragon',
+        label: '透雕盘绕螭虎',
+        summary: '玉环上方与两侧镂空雕出首尾呼应的螭虎，身躯呈优美 S 形扭转，充满汉代雕塑独有的飘逸律动。',
+        relPos: [0.08, 0.82, 0.5],
+        camDir: [0.15, 0.2, 1.0],
+      },
+      {
+        id: 'bi-central-hole',
+        label: '「好」孔礼天之制',
+        summary: '玉璧中央圆孔古称「好」，周边玉环称「肉」。《尔雅》有云「肉倍好谓之璧」，方寸之间暗合天圆宇宙观。',
+        relPos: [0.0, 0.5, 0.4],
+        camDir: [0.0, 0.0, 1.0],
+      },
+      {
+        id: 'bi-patina',
+        label: '千年琥珀沁色',
+        summary: '底部与局部边缘泛出温润褐红沁色，开启虚拟手电筒斜扫玉面，可清晰欣赏玉质温润油脂光泽。',
+        relPos: [0.22, 0.14, 0.5],
+        camDir: [0.25, -0.15, 1.0],
+      },
+    ],
+    sealText: '苍璧螭龙',
+    sealMotif: 'jade',
+    related: [
+      { id: '08-han-jade-dancer', reason: '同为海昏侯墓和田白玉珍品，一圆融礼天、一灵动起舞' },
+      { id: '06-shang-jade-mask', reason: '从商代严峻神徽到西汉飘逸螭龙，一览千年玉魂演进' },
+    ],
+  },
+
+  {
+    id: '08-han-jade-dancer',
+    index: 8,
+    code: 'HH-06',
+    name: '西汉·玉舞人',
+    englishName: 'White Jade Long-Sleeved Dancer Pendant',
+    dynasty: '西汉',
+    dynastyGroup: '两汉',
+    yearSort: -74,
+    eraSpan: '公元前 1 世纪（西汉）',
+    museum: '南昌汉代海昏侯国遗址博物馆',
+    hallId: 'jade-gold',
+    material: '玉器',
+    materialDetail: '和田白玉 · 透雕阴刻',
+    provenance: '江西南昌汉代海昏侯刘贺墓出土',
+    modelUrl: './models/08-han-jade-dancer.glb',
+    thumbUrl: './thumbs/08-han-jade-dancer.png',
+    modelRotation: [0, 0.2, 0],
+    cameraView: [0.18, 1.48, 1.0],
+    tagline: '一袖拂云、一袖掠腰，凝固大汉「翘袖折腰」曼妙瞬间',
+    riddle: '它身高不足七厘米，却在寸许白玉里藏下了一整段汉宫霓裳长袖舞，轻盈得仿佛随时会随乐声旋身而起。',
+    brief:
+      '汉代组玉佩中最受后世喜爱的经典意象。此件玉舞人以凝脂般的和田白玉雕就：舞女头梳垂鬟高髻，身穿交领长袖舞衣，左臂上扬甩袖拂过发顶，右袖顺腰横摆，身姿呈柔美「S」形微折，裙裾曳地翻卷，动静皆诗。',
+    origin:
+      '汉代贵族女子与王侯身上常悬成组「杂佩」，行步时玉片相击叮咚作响，称为「佩玉锵锵」。玉舞人常作为组玉佩的核心悬件，既呼应西汉盛行的楚舞「长袖善舞」风尚，也在礼仪场合传递优雅从容的君子仪度。',
+    stories: [
+      {
+        title: '长袖善舞：为什么汉代舞蹈偏爱极长的袖子？',
+        content:
+          '汉赋名篇《舞赋》曾盛赞汉舞「罗衣从风，长袖交横」。汉代乐舞讲究以超长水袖延伸手臂曲线，舞者折腰转腕间，长袖如行云流水划破空中。玉工仅用寥寥数根阴刻弧线，就把丝绸的飘逸感永远冻在了坚硬玉石里。',
+      },
+      {
+        title: '上下双穿孔：挂在王侯腰间的清脆乐音',
+        content:
+          '仔细看舞女头顶袖端与裙底足下，各留有一枚极细小的穿系小孔。当初它们由彩色丝绦上下串联起玉璜、玉管与琉璃珠，伴随海昏侯步履轻移，在金碧辉煌的府邸中发出清越悠扬的佩玉之声。',
+      },
+    ],
+    craftHighlight: '「汉八刀」简练写意线条 + 上下穿孔组玉佩结构 + 和田羊脂级白玉质感',
+    dimensions: {
+      height: 6.8,
+      width: 2.5,
+      depth: 0.5,
+      label: '通高约 6.8 cm · 宽约 2.5 cm · 厚约 0.5 cm',
+      scaleCompareText: '仅比成年人的拇指略长一点，小巧玲珑却神态毕现，务必开启「真实尺寸参照」感受其精微！',
+    },
+    hotspots: [
+      {
+        id: 'dancer-sleeve',
+        label: '拂顶翘袖',
+        summary: '左臂高举，宽大水袖划过头顶优雅翘起，袖端留有穿系丝绦的小孔，是汉代「翘袖折腰舞」的标志性动作。',
+        relPos: [0.05, 0.88, 0.5],
+        camDir: [0.15, 0.25, 1.0],
+      },
+      {
+        id: 'dancer-waist',
+        label: '纤腰横袖',
+        summary: '交领深衣束出盈盈细腰，右袖自然横掠腹前，衣褶线条流利如行书，呈现极高超的概括造型功力。',
+        relPos: [-0.08, 0.5, 0.55],
+        camDir: [-0.2, 0.05, 1.0],
+      },
+      {
+        id: 'dancer-hem',
+        label: '曳地回风裙摆',
+        summary: '裙摆向左右翩然外撇、尾端轻卷，寥寥数刀便勾勒出旋转瞬间的空气流动感，底部亦设穿孔用以垂挂流苏。',
+        relPos: [0.0, 0.14, 0.5],
+        camDir: [0.1, -0.15, 1.0],
+      },
+    ],
+    sealText: '翘袖玉舞',
+    sealMotif: 'jade',
+    related: [
+      { id: '07-han-jade-bi', reason: '同出汉代王侯玉器组合，一刚一柔展现汉玉巅峰' },
+      { id: '15-han-bamboo-paixiao', reason: '试想当年竹排箫起音、长袖舞人旋身起舞的汉宫画卷' },
+    ],
+  },
+
+  {
+    id: '09-east-han-mirror',
+    index: 9,
+    code: 'JX-03',
+    name: '东汉·鎏金神兽画像铜镜',
+    englishName: 'Eastern Han Gilt-Bronze Mirror with Deities & Beasts',
+    dynasty: '东汉',
+    dynastyGroup: '两汉',
+    yearSort: 120,
+    eraSpan: '公元 1—2 世纪（东汉）',
+    museum: '江西省博物馆',
+    hallId: 'jade-gold',
+    material: '青铜',
+    materialDetail: '高锡青铜 · 高浮雕鎏金',
+    provenance: '江西省博物馆典藏（东汉神兽镜珍品）',
+    modelUrl: './models/09-east-han-mirror.glb',
+    thumbUrl: './thumbs/09-east-han-mirror.png',
+    modelRotation: [0, 0.24, 0],
+    cameraView: [0.24, 1.42, 1.0],
+    tagline: '一面铜镜纳仙界，东王公西王母与瑞兽环绕金辉',
+    riddle: '它的正面曾光可鉴人，背面却在巴掌大的圆盘里以立体浮雕挤进了一整座东汉神仙宇宙，还通体闪耀金光。',
+    brief:
+      '东汉青铜镜艺术中最为华丽繁复的「重列/环绕式神兽画像镜」典范。镜背中央高隆圆钮如苍穹北极，周围高浮雕神仙、羽人与青龙白虎奔腾缠绕，外圈更饰铭文方枚与锯齿纹带，通体鎏金，富丽堂皇。',
+    origin:
+      '东汉中晚期，长江中下游（今浙、赣、鄂一带）成为全国最顶尖的铸镜中心。工匠一改西汉平面线刻传统，大胆运用高浮雕与圆雕技法塑造神仙瑞兽，将一面日常梳妆镜升华为寄托长生愿望、驱邪护佑的精神法器。',
+    stories: [
+      {
+        title: '镜背上的「元宇宙」：汉人的升仙地图',
+        content:
+          '转动镜面用「虚拟手电筒」细照内区浮雕：端坐华盖之下的往往是掌管不死药的西王母与东王公，四周簇拥着侍奉灵药的羽人、乘云奔腾的青龙白虎与玄武朱雀。汉人相信，常照此镜既能正衣冠，更能纳天地祥瑞、延年益寿。',
+      },
+      {
+        title: '为什么古代铜镜历经千年不黑不哑？',
+        content:
+          '铸造铜镜的青铜配方极其讲究——含锡量高达 24% 左右（远高于兵器与鼎彝），使镜面呈银白色「白铜」质感，再以含汞的「玄锡」反复磨砺，镜面清澈度直逼现代玻璃镜；背面覆以真金鎏层，千载之下依旧金气逼人。',
+      },
+    ],
+    craftHighlight: '高锡白铜精密范铸 + 多层次立体高浮雕神兽 + 镜背通体鎏金',
+    dimensions: {
+      height: 21.5,
+      width: 21.5,
+      depth: 1.4,
+      label: '直径约 21.5 cm · 缘厚约 1.4 cm',
+      scaleCompareText: '直径与一张小号黑胶唱片相近，握在手中厚重冰凉，尽显大汉气象。',
+    },
+    hotspots: [
+      {
+        id: 'mirror-knob',
+        label: '穹隆大圆钮',
+        summary: '镜背正中饱满半球形大钮，中穿丝绶以便手持或悬挂，象征天地运转的宇宙中心。',
+        relPos: [0.0, 0.5, 0.8],
+        camDir: [0.15, 0.1, 1.0],
+      },
+      {
+        id: 'mirror-deities',
+        label: '高浮雕神兽内区',
+        summary: '围绕圆钮层层叠叠浮雕出仙人与瑞兽，筋骨饱满、呼之欲出；强烈推荐开启「斜光手电筒」细赏每道金影起伏！',
+        relPos: [0.32, 0.62, 0.68],
+        camDir: [0.45, 0.2, 0.9],
+      },
+      {
+        id: 'mirror-rim',
+        label: '半圆方枚与云车外缘',
+        summary: '外区依次环列半圆方枚带、锯齿纹与奔马神兽画带，把整个镜背构筑成井然有序的同心宇宙图式。',
+        relPos: [-0.62, 0.72, 0.55],
+        camDir: [-0.55, 0.25, 0.85],
+      },
+    ],
+    sealText: '金镜仙游',
+    sealMotif: 'gold',
+    related: [
+      { id: '13-han-boshan-censer', reason: '同样承载两汉「蓬莱升仙」浪漫幻想的青铜艺术杰作' },
+      { id: '10-ming-gold-hairpin', reason: '跨越千年，对比东汉青铜鎏金与明代纯金镶宝的华贵光华' },
+    ],
+  },
+
+  {
+    id: '10-ming-gold-hairpin',
+    index: 10,
+    code: 'JX-04',
+    name: '明·镶宝石云龙纹金簪首',
+    englishName: 'Ming Gold Hairpin Head with Cloud Dragon & Gemstones',
+    dynasty: '明代',
+    dynastyGroup: '明清民国',
+    yearSort: 1550,
+    eraSpan: '公元 16 世纪（明代中晚期）',
+    museum: '江西省博物馆',
+    hallId: 'jade-gold',
+    material: '金银',
+    materialDetail: '纯金锤揲累丝 · 镶嵌红蓝宝石',
+    provenance: '江西省博物馆典藏（明代藩王系皇室金饰精品）',
+    modelUrl: './models/10-ming-gold-hairpin.glb',
+    thumbUrl: './thumbs/10-ming-gold-hairpin.png',
+    modelRotation: [0, 0.14, 0],
+    cameraView: [0.15, 1.42, 1.0],
+    tagline: '赤金作骨、红蓝宝作焰，明代藩王府邸的极致奢华',
+    riddle: '它本应插在贵妇高耸的发髻之上，却在不足十厘米的纯金之间盘踞着一条腾云五爪金龙，还满嵌西域红蓝宝石。',
+    brief:
+      '明代贵族金银细工登峰造极的代表作。整件簪首以纯金锤揲、掐丝、焊珠等十余道绝技打造出一条昂首张口、凌云翻腾的金龙，龙身与火焰云纹间依次镶嵌硕大红宝石、蓝宝石等名贵彩宝，璀璨夺目。',
+    origin:
+      '明朝在江西境内曾分封宁王、益王、淮王等显赫藩王，尤其江西南昌与南城一带出土的明代藩王及王妃墓葬金银玉器冠绝全国。这件镶宝石云龙金簪首正是明代宫廷与藩王「尚金喜宝」奢华审美的巅峰见证。',
+    stories: [
+      {
+        title: '郑和下西洋带来的「宝石狂潮」',
+        content:
+          '明代之前，中国贵族首饰偏爱温润含蓄的玉石与素金；自明初郑和船队远航南洋与锡兰（今斯里兰卡），大批红宝石、蓝宝石、祖母绿涌入大明宫廷，迅速催生了「赤金配满宝」的浓烈皇室风尚，越华贵越显尊荣。',
+      },
+      {
+        title: '空托的遗憾与真迹的温度',
+        content:
+          '细看金龙右半身的莲瓣形金托，有两枚宝石托槽已空留浅窝。这恰恰是数百年真实历史流转的印记——明代宝石多采用手工包边冷镶，历经岁月侵蚀偶有脱失，却也让今人得以直视内部精妙的花丝托座工艺。',
+      },
+    ],
+    craftHighlight: '明代皇家锤揲起凸 + 极细焊珠累丝云纹 + 莲瓣形金托包镶彩宝',
+    dimensions: {
+      height: 5.6,
+      width: 9.8,
+      depth: 2.2,
+      label: '宽约 9.8 cm · 高约 5.6 cm',
+      scaleCompareText: '宽度与一张名片相近，却集齐金龙腾云与红蓝宝石，佩戴发间步步生辉。',
+    },
+    hotspots: [
+      {
+        id: 'pin-dragon-head',
+        label: '腾跃金龙首',
+        summary: '龙头高昂、双须飞扬、五爪苍劲张开，每一片龙鳞皆以细凿逐一錾刻成形，生动传神。',
+        relPos: [-0.55, 0.78, 0.5],
+        camDir: [-0.55, 0.25, 0.9],
+      },
+      {
+        id: 'pin-rubies',
+        label: '莲托红蓝宝石',
+        summary: '龙腹中央高镶硕大鸽血色红宝石，左侧配深邃蓝宝石与玫瑰红宝，红蓝金三色撞出大明皇室的浓烈气派。',
+        relPos: [-0.08, 0.56, 0.65],
+        camDir: [0.0, 0.15, 1.0],
+      },
+      {
+        id: 'pin-empty-setting',
+        label: '花丝宝石空托',
+        summary: '右侧空出的金托如实暴露了明代包镶工艺的内部构造——外围焊满极细金珠，精工细节连看不见的底托都不马虎。',
+        relPos: [0.35, 0.42, 0.6],
+        camDir: [0.5, 0.1, 0.9],
+      },
+    ],
+    sealText: '赤金云龙',
+    sealMotif: 'gold',
+    related: [
+      { id: '16-song-silver-plate', reason: '对比南宋文人清雅银盘与明代皇室浓烈镶宝金工' },
+      { id: '09-east-han-mirror', reason: '隔空辉映的千年黄金工艺之美' },
+    ],
+  },
+
+  // ==================== 第三厅：汉风巧器 ====================
+  {
+    id: '11-han-goose-lamp',
+    index: 11,
+    code: 'HH-07',
+    name: '西汉·青铜雁鱼釭灯',
+    englishName: 'Western Han Bronze Goose-and-Fish Eco Lamp',
+    dynasty: '西汉',
+    dynastyGroup: '两汉',
+    yearSort: -74,
+    eraSpan: '公元前 1 世纪（西汉）',
+    museum: '南昌汉代海昏侯国遗址博物馆',
+    hallId: 'han-life',
+    material: '青铜',
+    materialDetail: '青铜 · 分体拼装 · 环保导烟结构',
+    provenance: '江西南昌汉代海昏侯刘贺墓出土',
+    modelUrl: './models/11-han-goose-lamp.glb',
+    thumbUrl: './thumbs/11-han-goose-lamp.png',
+    modelRotation: [0, 0.36, 0],
+    cameraView: [0.35, 1.38, 1.0],
+    tagline: '两千年前的「空气净化黑科技」，一雁衔鱼吞尽油烟',
+    riddle: '一只胖嘟嘟的青铜大雁回眸衔着一条大鱼，它肚子空空却要灌满清水——只为替汉代贵族解决一个令人头疼的居室烦恼。',
+    brief:
+      '中国古代工业设计与环保理念的超级明星文物！整灯化作一只昂首回眸、口衔肥鱼的肥硕鸿雁：鱼腹作烟罩，下承可旋转调光的灯盘，雁颈与雁腹全为空心相通，可巧妙吸收油灯燃起的黑烟。',
+    origin:
+      '汉代尚无清洁石蜡，贵族室内照明多燃烧动物油脂，黑烟滚滚、呛鼻熏墙。海昏侯墓中出土的青铜雁鱼釭（gāng）灯正是西汉最顶尖的「无烟环保灯具」，将科学流体导烟设计毫无违和感地藏进了一件充满吉庆诗意的青铜雕塑里。',
+    stories: [
+      {
+        title: '黑烟去哪儿了？两千年前的「水过滤烟道」',
+        content:
+          '点亮灯盘内的油脂灯芯后，带着黑烟的热气流上升进入鱼腹，再顺着弯曲的空心雁颈向下倒灌，直接通入预先盛满清水的空心雁腹之中！烟尘遇水溶解沉淀，室内空气顿时清新洁净，堪称古人给世界的一记物理满分答卷。',
+      },
+      {
+        title: '可旋转挡风罩 + 模块化拆洗设计',
+        content:
+          '灯盘四周装有两片可自由推拉旋转的弧形铜罩，既能挡风防灭，又能像现代台灯一样随心调节亮度与光照方向！更绝的是，整灯由雁身、雁颈、灯盘、灯罩等数个部件卡榫拼装而成，用久积垢后可以轻松拆开倒水清洗。',
+      },
+    ],
+    craftHighlight: '鱼腹—雁颈—水腹环保导烟系统 + 旋转调光灯罩 + 模块化可拆卸结构',
+    dimensions: {
+      height: 53.5,
+      width: 34,
+      depth: 22,
+      label: '通高约 53.5 cm · 通长约 34 cm',
+      scaleCompareText: '高度相当于一盏现代床头台灯，置于汉代漆案之上既照明又成视觉焦点的雕塑。',
+    },
+    hotspots: [
+      {
+        id: 'goose-neck',
+        label: '中空导烟雁颈',
+        summary: '修长回曲的雁颈内部完全中空，如同精密的烟囱管道，将鱼腹收集的热油烟一路导入雁腹水中净化。',
+        relPos: [-0.36, 0.78, 0.25],
+        camDir: [-0.55, 0.25, 0.9],
+      },
+      {
+        id: 'goose-lamp-shade',
+        label: '鱼腹罩与调光灯盘',
+        summary: '鸿雁口衔的肥鱼巧妙化身集烟罩，下方灯盘配弧形旋转灯罩与长柄，推动手柄即可自由调节光亮方向。',
+        relPos: [0.18, 0.62, 0.4],
+        camDir: [0.65, 0.2, 0.85],
+      },
+      {
+        id: 'goose-belly',
+        label: '盛水净烟雁腹',
+        summary: '圆润饱满的雁腹内部中空，使用前注入清水即可溶解沉淀油烟颗粒，且整灯可分体拆开倒水洗净。',
+        relPos: [-0.05, 0.34, 0.55],
+        camDir: [0.1, 0.05, 1.0],
+      },
+    ],
+    sealText: '雁鱼承烟',
+    sealMotif: 'bronze',
+    related: [
+      { id: '12-han-nanchang-lamp', reason: '同为海昏侯墓照明灯具：一重环保黑科技，一证古城名号' },
+      { id: '13-han-boshan-censer', reason: '一吸油烟、一吐仙香，共绘汉代贵族精致案头生活' },
+    ],
+    featuredInPrologue: true,
+  },
+
+  {
+    id: '12-han-nanchang-lamp',
+    index: 12,
+    code: 'HH-08',
+    name: '西汉·「南昌」铭文青铜豆形灯',
+    englishName: 'Bronze Stem Lamp Inscribed with "Nanchang"',
+    dynasty: '西汉',
+    dynastyGroup: '两汉',
+    yearSort: -74,
+    eraSpan: '公元前 1 世纪（西汉）',
+    museum: '南昌汉代海昏侯国遗址博物馆',
+    hallId: 'han-life',
+    material: '青铜',
+    materialDetail: '青铜 · 隶书阴刻铭文',
+    provenance: '江西南昌汉代海昏侯刘贺墓出土',
+    modelUrl: './models/12-han-nanchang-lamp.glb',
+    thumbUrl: './thumbs/12-han-nanchang-lamp.png',
+    modelRotation: [0, Math.PI, 0],
+    cameraView: [0.05, 1.38, 1.0],
+    tagline: '灯盘与底座双刻「南昌」，一座英雄城最早的青铜名片',
+    riddle: '它造型极简如一只高脚酒杯，却在灯盘与底座上工工整整刻着一座省会城市的名字，也是目前所见最早的实物见证。',
+    brief:
+      '形态修长挺拔的西汉豆形青铜灯，浅腹平底灯盘、竹节状细高把柄、喇叭形圈足。其无可替代的历史价值在于灯盘外壁与底座之上均清晰刻有隶书「南昌」二字，让两千年前的城市坐标跃然眼前。',
+    origin:
+      '汉高祖六年（公元前 201 年），大将灌婴平定江南，筑城置豫章郡，并以「昌大南疆」之意命郡治为「南昌」。虽然史书早有记载，但这件海昏侯墓出土的豆形灯，却是考古界首次发现带有「南昌」明确纪地铭文的西汉实物！',
+    stories: [
+      {
+        title: '为什么海昏侯墓里会有刻着「南昌」的灯？',
+        content:
+          '海昏县隶属西汉豫章郡，而南昌正是豫章郡治所在。这件青铜灯很可能铸造于当时南昌官营作坊，或由豫章郡太守府馈赠给受封海昏的刘贺，以「物勒工名」之制刻上产地「南昌」，无意间为后世留下了最硬核的城市身份证。',
+      },
+      {
+        title: '双处刻铭：把手电筒挪过去亲眼辨认汉隶！',
+        content:
+          '你现在就可以在 3D 视口里拉近镜头、打开「虚拟斜光手电筒」——灯盘正面外壁与下方底座边缘各刻有一组刚劲古朴的「南昌」汉隶。历经两千载风霜，每一笔横竖转折依旧清晰可辨。',
+      },
+    ],
+    craftHighlight: '修长竹节高柄力学平衡 + 灯盘与圈足双处西汉隶书「南昌」阴刻铭文',
+    dimensions: {
+      height: 28.5,
+      width: 15.2,
+      depth: 15.2,
+      label: '通高约 28.5 cm · 灯盘径约 15.2 cm',
+      scaleCompareText: '高度接近一只普通高脚红酒杯的两倍，修长利落，极富现代极简雕塑美感。',
+    },
+    hotspots: [
+      {
+        id: 'nanchang-rim-text',
+        label: '灯盘「南昌」铭文',
+        summary: '浅腹灯盘外壁正中清晰阴刻隶书「南昌」二字，笔画雄浑方正，是目前考古发现最早的「南昌」实物铁证。',
+        relPos: [0.06, 0.91, 0.85],
+        camDir: [0.08, 0.12, 1.0],
+      },
+      {
+        id: 'nanchang-stem',
+        label: '竹节细高柄',
+        summary: '中段微微隆起如竹节，既便于侍从手持移动，也避免盛满热油的灯盘烫手，简约中暗藏人体工学巧思。',
+        relPos: [0.0, 0.55, 0.3],
+        camDir: [0.3, 0.1, 0.95],
+      },
+      {
+        id: 'nanchang-base-text',
+        label: '圈足「南昌」再铭',
+        summary: '宽大喇叭形底座保证高柄稳立不倒，足面上再次刻出「南昌」二字，与灯盘铭文上下呼应。',
+        relPos: [-0.04, 0.08, 0.72],
+        camDir: [0.0, 0.45, 0.95],
+      },
+    ],
+    sealText: '南昌初铭',
+    sealMotif: 'bronze',
+    related: [
+      { id: '03-han-changyi-ding', reason: '同以珍贵铭文串联起「昌邑」到「南昌」的历史地理坐标' },
+      { id: '11-han-goose-lamp', reason: '对比汉代极简豆形灯与华丽雁鱼釭灯的两种照明美学' },
+    ],
+  },
+
+  {
+    id: '13-han-boshan-censer',
+    index: 13,
+    code: 'HH-09',
+    name: '西汉·青铜博山炉',
+    englishName: 'Western Han Bronze Boshan Mountain Incense Burner',
+    dynasty: '西汉',
+    dynastyGroup: '两汉',
+    yearSort: -74,
+    eraSpan: '公元前 1 世纪（西汉）',
+    museum: '南昌汉代海昏侯国遗址博物馆',
+    hallId: 'han-life',
+    material: '青铜',
+    materialDetail: '青铜 · 失蜡/精铸镂空',
+    provenance: '江西南昌汉代海昏侯刘贺墓出土',
+    modelUrl: './models/13-han-boshan-censer.glb',
+    thumbUrl: './thumbs/13-han-boshan-censer.png',
+    modelRotation: [0, 0.3, 0],
+    cameraView: [0.28, 1.32, 1.0],
+    tagline: '一缕龙脑香出山孔，方寸青铜化作东海蓬莱仙境',
+    riddle: '它底座盛水作沧海，炉盖堆叠着重重镂空山峦，一旦点燃异域香料，烟雾便在峰峦间飘渺环绕如临仙界。',
+    brief:
+      '汉代文人与王侯书房里最具浪漫情怀的熏香重器。下方宽大承盘象征东海碧波，炉身翻涌卷云浪涛，高耸的圆锥形炉盖则镂空铸成峰峦叠翠的海上仙山「博山」，奇禽异兽隐现其间。',
+    origin:
+      '张骞通西域后，苏合香、龙脑香、乳香等树脂香料传入中原。因为这些香料需要借助炭火焖烧才会散香，汉代工匠顺势将传统豆形灯与「海中三神山（蓬莱、方丈、瀛洲）」的神话融合，创造出中国香文化史上最经典的器型——博山炉。',
+    stories: [
+      {
+        title: '视觉魔术：古人是如何造出「云雾绕仙山」的？',
+        content:
+          '博山炉绝非随便挖几个洞出烟！工匠将出烟孔巧妙隐藏在山峰背面与山谷凹陷处，使炙热香烟无法直冲向上，而是贴着镂空山岩迂回缭绕而出；此时下方承盘盛满清水倒映峰影，一炉点起，整张漆案瞬间仙气氤氲。',
+      },
+      {
+        title: '承盘盛水的双重妙用',
+        content:
+          '宽阔的底座承盘除了象征大海与接住坠落的香灰、防止烫坏名贵漆木几案外，盛水后还能增加炉周微环境的湿度，让飘出的香烟更加沉稳细腻，不致呛人——浪漫神话的背后全是严谨的生活智慧。',
+      },
+    ],
+    craftHighlight: '层峦叠嶂镂空仙山炉盖 + 隐蔽式山谷散烟气道 + 海水承盘隔热设计',
+    dimensions: {
+      height: 26,
+      width: 22,
+      depth: 22,
+      label: '通高约 26 cm · 承盘径约 22 cm',
+      scaleCompareText: '大小如一只精巧桌面台灯座，却在二十余厘米间收尽海上仙山气象。',
+    },
+    hotspots: [
+      {
+        id: 'boshan-peaks',
+        label: '镂空海上博山',
+        summary: '圆锥炉盖层层叠加山峦云气与神兽，烟孔暗藏于峰谷之间，燃香时缕缕青烟宛若云海吞吐仙山。',
+        relPos: [0.02, 0.74, 0.45],
+        camDir: [0.25, 0.25, 0.95],
+      },
+      {
+        id: 'boshan-bowl',
+        label: '云涛纹炉腹',
+        summary: '半球形炉腹内盛炭灰与西域树脂香丸，外壁浮雕舒展的卷云纹，托起整座神秘仙山。',
+        relPos: [-0.28, 0.42, 0.58],
+        camDir: [-0.45, 0.1, 0.9],
+      },
+      {
+        id: 'boshan-tray',
+        label: '东海承水盘',
+        summary: '宽敞平整的青铜承盘用于注水承灰，水光倒映山影，将「海中有神山」的汉代意象化为触手可及的案头微景。',
+        relPos: [0.55, 0.12, 0.55],
+        camDir: [0.65, 0.4, 0.75],
+      },
+    ],
+    sealText: '博山仙烟',
+    sealMotif: 'bronze',
+    related: [
+      { id: '09-east-han-mirror', reason: '同样凝结两汉求仙浪漫美学的鎏金与青铜艺术' },
+      { id: '14-han-warming-ding', reason: '一炉焚香雅赏、一炉燃炭温食，复原刘贺的居家生活' },
+    ],
+    featuredInPrologue: true,
+  },
+
+  {
+    id: '14-han-warming-ding',
+    index: 14,
+    code: 'HH-10',
+    name: '西汉·青铜温鼎',
+    englishName: 'Western Han Bronze Warming Ding (Ancient Hotpot)',
+    dynasty: '西汉',
+    dynastyGroup: '两汉',
+    yearSort: -74,
+    eraSpan: '公元前 1 世纪（西汉）',
+    museum: '南昌汉代海昏侯国遗址博物馆',
+    hallId: 'han-life',
+    material: '青铜',
+    materialDetail: '青铜 · 双层炭槽保温结构',
+    provenance: '江西南昌汉代海昏侯刘贺墓出土',
+    modelUrl: './models/14-han-warming-ding.glb',
+    thumbUrl: './thumbs/14-han-warming-ding.png',
+    modelRotation: [0, 0.35, 0],
+    cameraView: [0.35, 1.28, 1.0],
+    tagline: '两千年前的「单人小火锅」，把祭祀礼器变成餐桌暖锅',
+    riddle: '它圆滚滚像一口青铜小锅，底部却伸出一根奇特的滑槽通道——原来是汉代吃货用来随时往锅底添炭保温的发明！',
+    brief:
+      '海昏侯刘贺「吃货王爷」身份的最佳佐证！整器敛口鼓腹、肩饰铺首衔环，三细足亭亭立起，而最惊艳的设计隐藏在腹部下方——巧设炭盘槽与通气结构，可随时放炭慢炖，堪称中国最早的「单人青铜火锅」。',
+    origin:
+      '商周时代，「鼎」是神圣庄严的祭祀礼器与权力象征；到了生活气息浓郁的西汉，贵族盛行「分餐席地而食」，冬日佳肴上桌极易变凉。于是工匠对古鼎大胆改造，诞生了集炊煮、保温、雅赏于一体的温鼎与染炉。',
+    stories: [
+      {
+        title: '考古惊现「板栗」：刘贺生前真的在涮锅！',
+        content:
+          '海昏侯墓出土的青铜温鼎与青铜火锅内壁留有清晰的烟炱火烧痕迹，考古队员甚至在同类火锅器内发现了板栗等食物残留！可见这绝非摆拍用的陪葬明器，而是刘贺在冬日宴饮时真真切切涮肉煮羹的心头好。',
+      },
+      {
+        title: '巧思细节：为什么锅底伸出一条斜槽？',
+        content:
+          '旋转 3D 模型观察锅腹底部：那条延伸向下的半圆槽既便于夹放和拨动炽热木炭、导出炭灰，又留出了充足的空气对流通道，让火候恰到好处地温热锅中羹汤而不致焦糊。',
+      },
+    ],
+    craftHighlight: '鼓腹聚热锅体 + 底部添炭滑槽结构 + 铺首衔环便携提手',
+    dimensions: {
+      height: 22,
+      width: 21,
+      depth: 21,
+      label: '通高约 22 cm · 腹径约 21 cm',
+      scaleCompareText: '刚好是一人食的精致小火锅体量，摆在汉代矮漆案前伸箸即食。',
+    },
+    hotspots: [
+      {
+        id: 'hotpot-mouth',
+        label: '敛口聚热锅腹',
+        summary: '收口鼓腹的流线外形能有效减少热量散失，锁住鲜美羹汤与肉香，一改商周方鼎的冷峻棱角。',
+        relPos: [0.0, 0.85, 0.3],
+        camDir: [0.15, 0.5, 0.9],
+      },
+      {
+        id: 'hotpot-rings',
+        label: '活环耳饰',
+        summary: '肩部对称铸造铺首活环，既增加器身灵动美感，也方便侍从用钩杆移运滚烫的温鼎。',
+        relPos: [0.68, 0.72, 0.45],
+        camDir: [0.8, 0.25, 0.65],
+      },
+      {
+        id: 'hotpot-chute',
+        label: '底部炭槽滑道',
+        summary: '最吸睛的黑科技所在——底部外伸斜槽用于投放炽热木炭与疏通炭灰，实现席间持续恒温小火慢煨。',
+        relPos: [0.08, 0.24, 0.68],
+        camDir: [0.25, -0.05, 1.0],
+      },
+    ],
+    sealText: '汉宫暖鼎',
+    sealMotif: 'bronze',
+    related: [
+      { id: '01-shang-tiger-ding', reason: '千年大变身：从商代百斤祭天方鼎到西汉餐桌暖锅' },
+      { id: '13-han-boshan-censer', reason: '共同还原西汉王侯冬夜暖锅焚香的闲适日常' },
+    ],
+  },
+
+  {
+    id: '15-han-bamboo-paixiao',
+    index: 15,
+    code: 'HH-11',
+    name: '西汉·竹排箫',
+    englishName: 'Western Han Lacquered Bamboo Panpipes (Paixiao)',
+    dynasty: '西汉',
+    dynastyGroup: '两汉',
+    yearSort: -74,
+    eraSpan: '公元前 1 世纪（西汉）',
+    museum: '南昌汉代海昏侯国遗址博物馆',
+    hallId: 'han-life',
+    material: '竹木乐器',
+    materialDetail: '竹管 · 朱黑漆彩绘编缀',
+    provenance: '江西南昌汉代海昏侯刘贺墓北藏阁乐器库出土',
+    modelUrl: './models/15-han-bamboo-paixiao.glb',
+    thumbUrl: './thumbs/15-han-bamboo-paixiao.png',
+    modelRotation: [0, 0.18, 0],
+    cameraView: [0.18, 1.44, 1.0],
+    tagline: '参差凤翼映朱漆，吹响汉武秋风辞里的空灵箫音',
+    riddle: '十余根长短依次递减的漆绘竹管排成一只展开的凤凰翅膀，两千年前汉武帝《秋风辞》里唱的正是它的清音。',
+    brief:
+      '中国最早的编管吹奏乐器，古称「箫」「参差」或「凤箫」。此件海昏侯竹排箫由长短递减的竹管排成优美阶梯状，以三道横箍紧密缠束，竹面髹涂红黑几何纹彩漆，华丽雅致，历两千年而神韵犹存。',
+    origin:
+      '古代「箫」本指多管并排的排箫，而非今天的单管洞箫。因为竹材极易腐烂，汉代排箫实物传世寥寥无几；海昏侯墓因地下水位高形成绝氧水封环境，竟奇迹般地保住了这件华美朱漆竹排箫。',
+    stories: [
+      {
+        title: '「参差」二字，原来最早就是形容它的！',
+        content:
+          '我们今天常说「参差不齐」，但在《楚辞·九歌》里，「吹参差兮谁思」的「参差」正是排箫的雅称！长短有序排列的竹管既如凤凰羽翼，又精确遵循古代「三分损益法」的律管长度比例，管长音低、管短音高。',
+      },
+      {
+        title: '凤鸣九霄：为什么古人说排箫像凤凰之声？',
+        content:
+          '《尚书》记载「箫韶九成，凤凰来仪」。吹奏排箫时，唇间气流掠过平齐的竹管上口，清越透明的乐音伴随一丝轻柔的竹管气声，宛若林间清风与凤鸣九天——点击下方音频面板，试着亲手滑奏一段汉风凤箫吧！',
+      },
+    ],
+    craftHighlight: '三分损益律管长短排布 + 三道横箍缠束工艺 + 汉代红黑几何纹漆绘',
+    dimensions: {
+      height: 24,
+      width: 18,
+      depth: 2.6,
+      label: '最长管高约 24 cm · 宽约 18 cm',
+      scaleCompareText: '宛如一本轻巧的 16 开诗集，双手轻执于唇边横向移气即可吹出清音。',
+    },
+    hotspots: [
+      {
+        id: 'paixiao-stair',
+        label: '凤翼阶梯管口',
+        summary: '竹管由左至右严格按音律比例逐级缩短，宛如凤凰舒展的羽翼，管越短则音高越清亮。',
+        relPos: [0.05, 0.78, 0.45],
+        camDir: [0.15, 0.2, 1.0],
+      },
+      {
+        id: 'paixiao-bindings',
+        label: '三道漆饰横箍',
+        summary: '三道精工缠绕的横箍将十余根独立竹管稳固编缀成一个平面整体，同时绘满细腻几何回纹。',
+        relPos: [-0.15, 0.48, 0.55],
+        camDir: [-0.2, 0.05, 1.0],
+      },
+      {
+        id: 'paixiao-lacquer',
+        label: '朱黑彩绘竹纹',
+        summary: '管身以朱红与深黑两色漆绘出繁复三角几何纹样，展现西汉楚风漆艺的瑰丽与浪漫。',
+        relPos: [0.22, 0.25, 0.55],
+        camDir: [0.3, -0.05, 1.0],
+      },
+    ],
+    instrument: {
+      type: 'paixiao',
+      title: '凤翼参差 · 竹排箫空灵试奏',
+      subtitle: '由低音长管至高音短管逐一轻触，聆听带着轻柔竹管气韵的汉代排箫清音',
+      notes: [
+        { id: 'p1', label: '低宫', sublabel: 'C5 · 长管', freq: 523.25 },
+        { id: 'p2', label: '商', sublabel: 'D5', freq: 587.33 },
+        { id: 'p3', label: '角', sublabel: 'E5', freq: 659.25 },
+        { id: 'p4', label: '徵', sublabel: 'G5', freq: 783.99 },
+        { id: 'p5', label: '羽', sublabel: 'A5', freq: 880.0 },
+        { id: 'p6', label: '高宫', sublabel: 'C6 · 短管', freq: 1046.5 },
+      ],
+      melodyName: '《秋风辞·凤箫引》片段',
+      melodySequence: [
+        { noteIndex: 3, delayMs: 0 },
+        { noteIndex: 4, delayMs: 480 },
+        { noteIndex: 5, delayMs: 960 },
+        { noteIndex: 4, delayMs: 1540 },
+        { noteIndex: 3, delayMs: 2020 },
+        { noteIndex: 2, delayMs: 2560 },
+        { noteIndex: 1, delayMs: 3080 },
+        { noteIndex: 0, delayMs: 3650 },
+        { noteIndex: 2, delayMs: 4300 },
+        { noteIndex: 3, delayMs: 4850 },
+      ],
+    },
+    sealText: '凤箫参差',
+    sealMotif: 'music',
+    related: [
+      { id: '04-han-gilt-bianzhong', reason: '金石洪亮与竹管空灵，共组海昏侯完整汉代雅乐' },
+      { id: '08-han-jade-dancer', reason: '箫声起处，仿佛可见白玉舞女长袖回风' },
+    ],
+  },
+
+  // ==================== 第四厅：窑火丹青 ====================
+  {
+    id: '16-song-silver-plate',
+    index: 16,
+    code: 'JX-05',
+    name: '南宋·錾刻双鱼纹银盘',
+    englishName: 'Southern Song Chased Silver Plate with Twin Fish',
+    dynasty: '南宋',
+    dynastyGroup: '宋元',
+    yearSort: 1220,
+    eraSpan: '公元 12—13 世纪（南宋）',
+    museum: '江西省博物馆',
+    hallId: 'craft-porcelain',
+    material: '金银',
+    materialDetail: '高纯白银 · 锤揲鱼子地錾刻',
+    provenance: '江西省博物馆典藏（江西宋代窖藏/墓葬金银器代表）',
+    modelUrl: './models/16-song-silver-plate.glb',
+    thumbUrl: './thumbs/16-song-silver-plate.png',
+    modelRotation: [0, 0.18, 0],
+    cameraView: [0.18, 1.38, 1.0],
+    tagline: '霜银作水、针凿作鱼，定格大宋江南清雅宴饮风光',
+    riddle: '它以一整片白银捶打而成，盘心没有张扬的金粉堆砌，却靠极细的银凿刻出一对悠然戏莲的双鲤。',
+    brief:
+      '南宋江南金银细工清雅审美的典范之作。全器以高纯度白银锤揲出宽折沿浅腹圆盘，盘心以灵动流畅的阴线錾刻双鲤逐水嬉戏、荷花摇曳，宽沿处满饰如霜雪般细密的珍珠鱼子地纹，温雅内敛。',
+    origin:
+      '南宋偏安江南后，经济重心彻底南移，江西商贸繁盛、文风鼎盛，富室雅集盛行以精工银器盛放果品佳肴。与唐代富丽奢华的金银器不同，宋代银盘删繁就简，以线条意境取胜，宛如一幅刻在明月白银上的水墨小品。',
+    stories: [
+      {
+        title: '一锤一凿的「鱼子地」：千万次敲击造出的磨砂银光',
+        content:
+          '将镜头推近盘沿并用虚拟手电筒斜扫，你会惊叹于宽边上细密均匀的微小颗粒——这是古代金银工匠用一根前端中空的极细小圆凿，一锤挨着一锤敲击数万次形成的「鱼子纹」，既避免银盘反光刺眼，又衬托出盘心双鱼如游镜湖之上。',
+      },
+      {
+        title: '双鱼戏莲：宋人餐桌上的吉祥密码',
+        content:
+          '「鱼」谐音「余」，双鱼相伴更有琴瑟和鸣、连年有余之美意。南宋名窑如龙泉青瓷、景德镇青白瓷亦极爱装饰双鱼纹，银盘与瓷盘相互借鉴，共同缔造了极简而深情的宋式生活美学。',
+      },
+    ],
+    craftHighlight: '高纯度白银整片锤揲 + 盘沿细密鱼子地 + 盘心写意双鱼穿莲錾刻',
+    dimensions: {
+      height: 4.2,
+      width: 21.8,
+      depth: 21.8,
+      label: '口径约 21.8 cm · 高约 4.2 cm',
+      scaleCompareText: '大小如一只标准家用菜盘，薄而有韧，银辉如秋水清澈。',
+    },
+    hotspots: [
+      {
+        id: 'silver-fish',
+        label: '盘心双鱼戏莲',
+        summary: '两条鲤鱼首尾相逐、鳞鳍毕现，身畔伴以舒展的水草与小花，宛若宋代院体花鸟画移步银盘。',
+        relPos: [0.0, 0.5, 0.5],
+        camDir: [0.05, 0.12, 1.0],
+      },
+      {
+        id: 'silver-rim',
+        label: '宽沿鱼子珍珠地',
+        summary: '宽阔折沿上以微型空心圆凿敲击出万千颗均匀「鱼子地」颗粒，与光洁素银壁面形成绝妙哑光对比。',
+        relPos: [0.58, 0.72, 0.45],
+        camDir: [0.4, 0.25, 0.9],
+      },
+      {
+        id: 'silver-wall',
+        label: '光素弧形腹壁',
+        summary: '内壁留出大片洁净素银，毫无多余矫饰，让视线自然聚焦于盘心游鱼，尽显宋代极简美学。',
+        relPos: [-0.42, 0.35, 0.45],
+        camDir: [-0.4, 0.05, 0.95],
+      },
+    ],
+    sealText: '霜银双鱼',
+    sealMotif: 'gold',
+    related: [
+      { id: '10-ming-gold-hairpin', reason: '对比宋代清雅白银与明代华美赤金的时代审美转向' },
+      { id: '17-yuan-zhangcheng-lacquer', reason: '承宋启元，细赏江南手作工艺的巅峰接力' },
+    ],
+  },
+
+  {
+    id: '17-yuan-zhangcheng-lacquer',
+    index: 17,
+    code: 'JX-06',
+    name: '元·「张成造」剔犀云纹漆盒',
+    englishName: 'Yuan Carved "Tixi" Lacquer Box by Master Zhang Cheng',
+    dynasty: '元代',
+    dynastyGroup: '宋元',
+    yearSort: 1340,
+    eraSpan: '公元 14 世纪（元代中晚期）',
+    museum: '江西省博物馆',
+    hallId: 'craft-porcelain',
+    material: '漆器',
+    materialDetail: '木胎雕漆 · 乌间朱线剔犀',
+    provenance: '1959 年江西南昌明代墓出土（元代传世宗师名款珍宝）',
+    modelUrl: './models/17-yuan-zhangcheng-lacquer.glb',
+    thumbUrl: './thumbs/17-yuan-zhangcheng-lacquer.png',
+    modelRotation: [0, 0.28, 0],
+    cameraView: [0.28, 1.22, 1.0],
+    tagline: '百层漆色藏刀锋，雕漆宗师「张成造」罕见真迹孤品',
+    riddle: '它通体漆黑如墨玉，但每一道肥厚如云的刀槽断面里，都奇迹般地透出整齐分明的朱红色丝线。',
+    brief:
+      '中国漆器史上如雷贯耳的元代雕漆巨匠——**张成**亲款传世名作！盒作饱满扁圆形，通体以「剔犀」绝技雕出肥腴舒卷的如意云头纹，墨黑漆层间如年轮般显露数道细密朱红漆线，润如黑玉、气韵沉厚。',
+    origin:
+      '元代浙江嘉兴西塘出了两位名垂青史的雕漆大师：张成与杨茂，其作品在当时就被视作稀世珍宝，甚至连明初皇室都争相仿制。这件漆盒虽出土于江西南昌一座明代墓葬，却是墓主人家族珍藏逾百年的元代「张成造」真迹，堪称世界级雕漆国宝。',
+    stories: [
+      {
+        title: '什么是「剔犀」？耗时数年的百道髹漆魔法',
+        content:
+          '制作剔犀绝无捷径：漆工必须在木胎上涂一层黑漆、待其阴干打磨，反复刷上数十层后再刷几层朱红漆，如此红黑交替叠加百余层，厚度达数毫米后，才趁漆膜半干以锋利斜面刀深剔出云纹——斜切面自然呈现出红黑交错的「乌间朱线」，如同大理石天然纹理般神奇！',
+      },
+      {
+        title: '盒底暗藏「张成造」针刻款',
+        content:
+          '与明清官窑高调醒目的青花年款不同，元代大师张成习惯在漆盒底部不起眼的边缘处，用极细铁针如写蝇头小楷般刻下「张成造」三字。这种低调克制的匠人署名，反而成为后世鉴定元代雕漆真伪的黄金标尺。',
+      },
+    ],
+    craftHighlight: '百层红黑交替髹涂「乌间朱线」 + 元代肥腴深峻斜面剔刀法 + 「张成造」宗师名款',
+    dimensions: {
+      height: 9.6,
+      width: 18.4,
+      depth: 18.4,
+      label: '直径 18.4 cm · 通高 9.6 cm',
+      scaleCompareText: '大小如一只饱满圆润的掌上茶饼盒，拿在手中温润轻盈却蕴含百层漆光。',
+    },
+    hotspots: [
+      {
+        id: 'tixi-clouds',
+        label: '肥腴如意云头纹',
+        summary: '盖面以极饱满的圆润刀锋雕琢出翻滚交缠的云头纹（俗称「云钩」），线条丰满如墨玉雕塑，极富元代雄浑气魄。',
+        relPos: [0.15, 0.85, 0.35],
+        camDir: [0.25, 0.55, 0.85],
+      },
+      {
+        id: 'tixi-layers',
+        label: '斜切面「乌间朱线」',
+        summary: '打开虚拟斜光手电筒照向刀槽斜面！可清晰看见黑漆之间镶嵌着一道道红丝般的朱漆断面，全靠百层髹涂积淀。',
+        relPos: [-0.38, 0.52, 0.72],
+        camDir: [-0.45, 0.2, 0.9],
+      },
+      {
+        id: 'tixi-seam',
+        label: '子母口严丝合缝',
+        summary: '盒盖与盒身扣合天衣无缝，历经六百余年丝毫不变形，上下云纹相接浑然一体。',
+        relPos: [0.55, 0.44, 0.6],
+        camDir: [0.65, 0.1, 0.85],
+      },
+    ],
+    sealText: '张成剔犀',
+    sealMotif: 'lacquer',
+    related: [
+      { id: '19-qing-vermilion-bowl', reason: '跨越四百年，对比元代黑红剔犀与盛清乾隆脱胎朱漆两大漆艺巅峰' },
+      { id: '16-song-silver-plate', reason: '宋元江南手作工艺的双星闪耀' },
+    ],
+  },
+
+  {
+    id: '18-qing-kangxi-jar',
+    index: 18,
+    code: 'JX-07',
+    name: '清康熙·青花锦鸡牡丹纹将军罐',
+    englishName: 'Qing Kangxi Blue-and-White General Jar with Pheasant & Peonies',
+    dynasty: '清康熙',
+    dynastyGroup: '明清民国',
+    yearSort: 1690,
+    eraSpan: '公元 17 世纪末（清康熙）',
+    museum: '江西省博物馆',
+    hallId: 'craft-porcelain',
+    material: '陶瓷',
+    materialDetail: '景德镇青花瓷 · 浙料分水皴',
+    provenance: '江西省博物馆典藏（景德镇清康熙青花巅峰器）',
+    modelUrl: './models/18-qing-kangxi-jar.glb',
+    thumbUrl: './thumbs/18-qing-kangxi-jar.png',
+    modelRotation: [0, 0.3, 0],
+    cameraView: [0.28, 1.38, 1.0],
+    tagline: '蓝分五色胜水墨，景德镇康熙青花「翠毛蓝」绝唱',
+    riddle: '它圆肩挺拔、顶戴宝珠盔帽宛如沙场名将，只用一种钴蓝色颜料，竟在白瓷上画出了浓淡五层的国画意境。',
+    brief:
+      '景德镇青花瓷黄金时代——康熙朝的标志性巨制！因高耸宝珠顶盖神似古代将军头盔而得名「将军罐」。胎质洁白紧致如玉，通体以国产顶级「浙料」绘锦鸡栖石、牡丹竞放，蓝白明快如宝石般璀璨。',
+    origin:
+      '清康熙时期，江西景德镇瓷业摆脱战乱重焕巅峰，不仅精炼出绝佳的「浙料」钴蓝，更革新了绘画技法，被后世瓷界盛赞为「青花五彩」——即单凭青花一色，就能晕染出「头浓、正浓、二浓、正淡、影淡」五个色阶，成就中国青花史的最高美学高度。',
+    stories: [
+      {
+        title: '什么是「青花分水」？瓷坯上的中国水墨革命',
+        content:
+          '康熙画工先用细笔在生泥坯上勾出锦鸡羽翎与牡丹轮廓，再换上饱蘸不同浓度钴料水的「鸡头笔」，借腕力让色水在吸水坯胎上自然流淌渲染。烧成后，花瓣由深邃「翠毛蓝」柔和过渡至朦胧冰蓝，宛如宣纸上的水墨大写意。',
+      },
+      {
+        title: '为什么叫「将军罐」？从佛门骨灰罐到厅堂巨器',
+        content:
+          '这种挺拔罐型最早源自明末寺庙盛放高僧舍利的宝顶罐，到了康熙年间因其丰肩收腹、威武雄壮的气度，被民间赋予「将军罐」的豪迈雅号，并作为厅堂陈设重器远销欧洲王宫，成为当年西方人眼中「东方蓝白奇迹」的化身。',
+      },
+    ],
+    craftHighlight: '康熙顶级浙料「翠毛蓝」 + 墨分五色分水皴技法 + 景德镇紧致糯米胎',
+    dimensions: {
+      height: 46.5,
+      width: 28,
+      depth: 28,
+      label: '通高约 46.5 cm · 腹径约 28 cm',
+      scaleCompareText: '体量巍峨饱满，约与一台立式空气净化器相仿，摆在厅堂案头气场十足。',
+    },
+    hotspots: [
+      {
+        id: 'jar-helmet-lid',
+        label: '将军盔式宝珠盖',
+        summary: '弧形宽檐盖顶立圆润宝珠钮，轮廓宛若古代将军铠盔，盖面亦满绘折枝花石与山峦青花。',
+        relPos: [0.0, 0.9, 0.35],
+        camDir: [0.25, 0.35, 0.95],
+      },
+      {
+        id: 'jar-pheasant',
+        label: '「分水皴」锦鸡尾羽',
+        summary: '罐腹绘长尾锦鸡独立太湖石上，工匠以浓淡五色青花细致晕染出羽翼的立体光影与蓬松质感。',
+        relPos: [-0.08, 0.56, 0.78],
+        camDir: [-0.1, 0.1, 1.0],
+      },
+      {
+        id: 'jar-peony',
+        label: '锦堂富贵牡丹图',
+        summary: '盛放的牡丹与洞石环绕周身，锦鸡配牡丹正合传统吉语「锦堂富贵」，360° 旋转观赏步移景异。',
+        relPos: [0.55, 0.48, 0.55],
+        camDir: [0.75, 0.08, 0.75],
+      },
+    ],
+    sealText: '康熙青花',
+    sealMotif: 'porcelain',
+    related: [
+      { id: '20-minguo-plum-armrest', reason: '同出江西景德镇窑火，从盛清青花走到民国「珠山八友」粉彩文人瓷' },
+      { id: '19-qing-vermilion-bowl', reason: '盛清一蓝一红两大宫廷极致色调的隔空对话' },
+    ],
+    featuredInPrologue: true,
+  },
+
+  {
+    id: '19-qing-vermilion-bowl',
+    index: 19,
+    code: 'JX-08',
+    name: '清乾隆·脱胎朱漆菊瓣盖碗',
+    englishName: 'Qing Qianlong Bodiless Vermilion Lacquer Chrysanthemum Bowl',
+    dynasty: '清乾隆',
+    dynastyGroup: '明清民国',
+    yearSort: 1760,
+    eraSpan: '公元 18 世纪（清乾隆）',
+    museum: '江西省博物馆',
+    hallId: 'craft-porcelain',
+    material: '漆器',
+    materialDetail: '夹纻脱胎 · 御用朱漆',
+    provenance: '江西省博物馆典藏（盛清宫廷造办处风格脱胎漆器）',
+    modelUrl: './models/19-qing-vermilion-bowl.glb',
+    thumbUrl: './thumbs/19-qing-vermilion-bowl.png',
+    modelRotation: [0, 0.25, 0],
+    cameraView: [0.25, 1.25, 1.0],
+    tagline: '轻若无物却坚逾陶石，乾隆皇帝最痴迷的一抹御用朱红',
+    riddle: '它远看像一朵绽放的赤红瓷碗，捧在手里却轻得几乎感觉不到重量——因为它的内胎早已被工匠神奇地「脱」掉了！',
+    brief:
+      '盛清宫廷「菊瓣脱胎漆器」中的绝美雅器。整碗由盖与碗扣合而成，周身精准压印出数十道细密匀称的菊花瓣楞线，通体满髹宝光内蕴的御用朱漆，色泽如初绽红菊般炽热沉稳，轻盈如羽。',
+    origin:
+      '清乾隆皇帝对「菊瓣漆器」情有独钟，不仅屡屡传旨苏州织造与内务府造办处按古制精制，更曾多次挥毫赋诗赞叹其「制法奇巧、轻盈耐久」。此件盖碗将脱胎工艺与仿生花瓣造型结合得天衣无缝，堪称清代漆艺巅峰。',
+    stories: [
+      {
+        title: '什么叫「脱胎漆器」？没有骨头的奇迹',
+        content:
+          '工匠先用泥土或石膏塑出菊瓣碗模，再用大漆浸润麻布或绸布层层裱糊其上，待漆布彻底硬化定型后，把里面的泥胎用水泡软彻底掏空「脱去」！剩下的薄薄漆布壳再经数十道刮灰、打磨与朱漆罩光，最终成就「轻如纸片、摔不碎、耐沸水」的东方漆艺神迹。',
+      },
+      {
+        title: '一盖两用：盛清茶席上的巧思仪式',
+        content:
+          '仔细看盖碗顶部的环形抓钮——不仅方便掀盖闻香，将碗盖翻转过来稳稳放于案几，它本身立刻变成一只优雅的小托碟！几十瓣棱线在暗场聚光下折射出丝绸般的红晕光泽，美得摄人心魄。',
+      },
+    ],
+    craftHighlight: '失泥夹纻脱胎技艺（轻若无物） + 数十道均分菊瓣楞线 + 纯正御用朱漆罩光',
+    dimensions: {
+      height: 11.2,
+      width: 12.8,
+      depth: 12.8,
+      label: '口径 12.8 cm · 通高 11.2 cm',
+      scaleCompareText: '刚好适合双手轻捧于掌心品茗，虽为漆器却比同尺寸瓷碗轻上数倍。',
+    },
+    hotspots: [
+      {
+        id: 'bowl-knob',
+        label: '覆足式环钮盖顶',
+        summary: '碗盖顶部以微撇圈足为抓钮，既防烫手，翻转后还可化作小巧稳当的茶碟。',
+        relPos: [0.0, 0.94, 0.25],
+        camDir: [0.2, 0.55, 0.85],
+      },
+      {
+        id: 'bowl-petals',
+        label: '等分菊瓣楞线',
+        summary: '碗盖与碗腹的数十道菊瓣沟棱上下精准对齐，开启「虚拟手电筒」滑过表面，红漆高光如丝绒涟漪层层流转。',
+        relPos: [0.35, 0.52, 0.72],
+        camDir: [0.45, 0.15, 0.9],
+      },
+      {
+        id: 'bowl-foot',
+        label: '轻盈脱胎圈足',
+        summary: '底足秀挺收束，内部胎骨已全部脱去，使得整件盖碗集极轻分量与极强韧度于一身。',
+        relPos: [0.0, 0.08, 0.45],
+        camDir: [0.25, -0.15, 0.95],
+      },
+    ],
+    sealText: '朱漆菊瓣',
+    sealMotif: 'lacquer',
+    related: [
+      { id: '17-yuan-zhangcheng-lacquer', reason: '一厚重剔雕、一轻盈脱胎，双峰并峙的中国古漆器绝艺' },
+      { id: '18-qing-kangxi-jar', reason: '盛清蓝白青花与御用朱红的极致视觉映照' },
+    ],
+  },
+
+  {
+    id: '20-minguo-plum-armrest',
+    index: 20,
+    code: 'JX-09',
+    name: '民国·田鹤仙粉彩梅纹书卷形臂搁',
+    englishName: 'Republic Era Porcelain Scroll Wrist-Rest with Plum Blossoms by Tian Hexian',
+    dynasty: '民国',
+    dynastyGroup: '明清民国',
+    yearSort: 1935,
+    eraSpan: '20 世纪 20—40 年代（民国）',
+    museum: '江西省博物馆',
+    hallId: 'craft-porcelain',
+    material: '陶瓷',
+    materialDetail: '景德镇粉彩瓷 · 珠山八友文人瓷画',
+    provenance: '江西省博物馆典藏（景德镇「珠山八友」田鹤仙名作）',
+    modelUrl: './models/20-minguo-plum-armrest.glb',
+    thumbUrl: './thumbs/20-minguo-plum-armrest.png',
+    modelRotation: [0, 0.42, 0],
+    cameraView: [0.42, 1.05, 1.0],
+    tagline: '以瓷为宣纸、以釉为水墨，「珠山八友」枕腕生梅香',
+    riddle: '它长着一卷半展开的白色宣纸书卷模样，上面题着咏梅诗与红印，其实是民国大师烧在瓷器上的书法垫腕神器。',
+    brief:
+      '景德镇近代瓷画天团**「珠山八友」之一田鹤仙**的文房代表作！巧将白瓷塑造成一卷徐徐展开的宣纸手卷，左侧绘苍劲冷逸的枯干寒梅，右侧纵笔题写行草咏梅诗句并钤朱红印章，将千年瓷艺彻底升华为文人画境。',
+    origin:
+      '清末民初，御窑厂停烧，一批功力深厚的景德镇瓷画名家结成「月圆会」（世称「珠山八友」），以王琦、汪野亭、田鹤仙等人为代表，打破工匠套路，将传统文人山水花鸟与诗书画印搬上瓷面。田鹤仙号「荒园老梅」，平生独精画梅，享誉瓷坛。',
+    stories: [
+      {
+        title: '什么是「臂搁」？古人写毛笔字的防蹭墨神器',
+        content:
+          '传统毛笔书写自右向左竖排，右手腕悬空久了极易酸痛，落下又会蹭花刚写好的湿墨。于是文人发明了弧形隆起的「臂搁」垫在手腕下方——而田鹤仙用冰凉洁白瓷书卷作臂搁，执笔临帖时枕腕看梅，风雅至极。',
+      },
+      {
+        title: '「梅花弄影」：田鹤仙独创的瓷上冰梅绝技',
+        content:
+          '放大旋转细赏卷面梅枝：田鹤仙摒弃了传统浓艳大红粉彩，改用极淡雅的墨绿、枯褐与微晕冷灰勾勒老梅苍枝，虚实相生如月下梅影，被瓷画界誉为一绝「荒园梅影」，将三千年赣鄱文物长河收束于一缕清幽文人书香之中。',
+      },
+    ],
+    craftHighlight: '仿展开书卷异形瓷塑 + 田鹤仙独创淡雅水墨意境瓷画 + 诗书画印全备',
+    dimensions: {
+      height: 2.8,
+      width: 9.6,
+      depth: 18.2,
+      label: '长 18.2 cm · 宽 9.6 cm · 高 2.8 cm',
+      scaleCompareText: '宛如一块温润白玉镇纸大小，恰好舒贴承托书法家执笔的右手腕。',
+    },
+    hotspots: [
+      {
+        id: 'armrest-plum',
+        label: '水墨苍枝寒梅',
+        summary: '书卷展平面上斜出一株老梅，枝干苍劲、暗香浮动，尽显田鹤仙「以瓷代纸」的文人水墨笔趣。',
+        relPos: [-0.25, 0.72, 0.15],
+        camDir: [-0.35, 0.85, 0.5],
+      },
+      {
+        id: 'armrest-poem',
+        label: '行草题诗与红印',
+        summary: '卷轴隆起处工致题写咏梅行草诗句，末落朱红「鹤仙」方印，诗、书、画、印四绝齐备于瓷上。',
+        relPos: [0.35, 0.92, -0.05],
+        camDir: [0.45, 0.8, 0.5],
+      },
+      {
+        id: 'armrest-scroll-end',
+        label: '卷纸层叠端面',
+        summary: '最见匠心的细节在侧面——瓷胎被精细捏塑出层层叠卷的宣纸纸页厚度，几可乱真。',
+        relPos: [0.42, 0.45, 0.82],
+        camDir: [0.4, 0.35, 0.9],
+      },
+    ],
+    sealText: '荒园梅影',
+    sealMotif: 'porcelain',
+    related: [
+      { id: '18-qing-kangxi-jar', reason: '三百年景德镇窑火变迁：从皇家巨制走向文人书斋雅玩' },
+      { id: '06-shang-jade-mask', reason: '展馆首尾呼应：从商代巫神礼玉到民国文人清雅，纵览赣鄱三千年' },
+    ],
+  },
+];
+
+export const ARTIFACT_MAP = Object.fromEntries(ARTIFACTS.map((a) => [a.id, a])) as Record<
+  string,
+  Artifact
+>;
+
+export const PROLOGUE_ARTIFACTS = ARTIFACTS.filter((a) => a.featuredInPrologue);
